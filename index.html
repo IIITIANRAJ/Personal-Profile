@@ -22,6 +22,7 @@
             justify-content: space-around;
             align-items: center;
             height: 60px;
+            width:100%;
             background-color: rgb(18,18,62);
         }
         nav ul{
@@ -35,6 +36,7 @@
         nav ul li a{
             text-decoration:none;
             color:white;
+            font-size: 1rem;
         }
         nav ul li a:hover{
             color: rgb(153,153,226);
@@ -65,14 +67,18 @@
         }
         main hr{
             border:0;
-            background-color: blue;
+            background-color:  #00ABE4;
             height: 1.2px; 
             margin: 40px 84px;
         }
+        img{
+            border:5px solid #f0f0f5;
+        }
         footer{
-            text-align:center;
-            font-size:25px;
-            background-color:rgb(18,18,62);
+            background-color: rgb(18,18,62);
+            font-family: 'Poppins', sans-serif;
+            font-size: small;
+        }
     </style>
 </head>
 <body>
@@ -82,9 +88,9 @@
             <div class="high">
                 <ul>
                    <li><a href="./index.html">Home</a></li>
-                   <li><a href="./Myportfolio/about.html">About</a></li>
-                   <li><a href="./projects.html">Projects</a></li>
-                   <li><a href="./Myportfolio/contact.html">Contact Me</a></li>
+                   <li><a href="./about.html">About</a></li>
+                   <li><a href="./project.html">Projects</a></li>
+                   <li><a href="./contact.html">Contact Me</a></li>
                 </ul>
             </div>
         </nav>
@@ -102,7 +108,7 @@
             </div>
         </section>
         <hr>
-        <footer><p>2024 Raj Verma all right reserved.</p></footer>
+        <footer style="text-align: center; font-size: 25px;"><p>@ 2024 Raj Verma all right reserved.</p></footer>
     </main>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script>
